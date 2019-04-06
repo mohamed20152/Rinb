@@ -34,8 +34,10 @@ client.on('ready', () => {
   console.log('╔[════════════]╗')
   console.log('Created By: Uzy.')
   console.log('╚[════════════]╝')
-client.user.setActivity("r#help | Uzy.",{type: 'WATCHING'});
-console.log('Done The Watching Setup Completed')
+// playing
+client.on('ready', () => {                           
+client.user.setGame(`r#help | r#set`,'https://www.twitch.tv/Magic0_$tar♥');
+  });
 	
 });
 //Best Rainbow Bot .
