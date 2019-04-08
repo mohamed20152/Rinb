@@ -36,7 +36,6 @@ client.on('ready', () => {
   console.log('╚[════════════]╝')
 
 	
-// playing
 client.on('ready', () => {                           
 client.user.setGame(`r#help | r#set`,'https://www.twitch.tv/Magic0_$tar♥');
   });
