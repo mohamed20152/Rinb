@@ -35,10 +35,12 @@ client.on('ready', () => {
   console.log('Created By: Uzy.')
   console.log('╚[════════════]╝')
 
+	
 // playing
 client.on('ready', () => {                           
 client.user.setGame(`r#help | r#set`,'https://www.twitch.tv/Magic0_$tar♥');
   });
+
 	
 });
 //Best Rainbow Bot .
