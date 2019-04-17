@@ -34,11 +34,10 @@ client.on('ready', () => {
   console.log('╔[════════════]╗')
   console.log('Created By: Uzy.')
   console.log('╚[════════════]╝')
-
+client.user.setActivity("r#help | Uzy.",{type: 'STREAM'});
+console.log('Done The Streaming Setup Completed')
 	
-client.on('ready', () => {                           
-client.user.setGame(`r#help | r#set`,'https://www.twitch.tv/Magic0_$tar♥');
-  });
+});	
 
 	
 });
