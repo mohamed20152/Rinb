@@ -35,10 +35,7 @@ client.on('ready', () => {
   console.log('Created By: Uzy.')
   console.log('╚[════════════]╝')
 client.user.setActivity("r#help | Uzy.",{type: 'WATCHING'});
-console.log('Done The WATCHING Setup Completed')
-	
-});	
-
+console.log('Done The Watching Setup Completed')
 	
 });
 //Best Rainbow Bot .
@@ -91,8 +88,7 @@ The steps of the role did not worked .!!
 1- Place the role of the Rainbow above the colors or colored ranks if it
 2- Put the bot role above the role of the Rainbow 
 رآبط البوت - Bot Invite link
-- https://goo.gl/zf3xby
-r#bot / لعرض معلومات البوت
+- 
 =====================🌈 RainbowBot. 🌈=====================
 **`)
 message.author.sendEmbed(rainembed)//send the embed to the author dm
@@ -160,27 +156,4 @@ if (message.author.id !== '418772246178430997') return message.reply('** هذا 
  message.channel.sendMessage(`**${argresult}** : تم تغيير الووتشينق الى`)
 }
 });
-
-client.on('message', message => {
-    if (message.content.startsWith(prefix + "bot")) {
-    message.channel.send({
-        embed: new Discord.RichEmbed()
-            .setAuthor(client.user.username,client.user.avatarURL)
-            .setThumbnail(client.user.avatarURL)
-            .setColor('RANDOM')
-            .setTitle('``INFO Uzy Community ©`` ')
-            .addField('``My Ping``' , [`${Date.now() - message.createdTimestamp}` + 'MS'], true)
-            .addField('``RAM Usage``', `[${(process.memoryUsage().rss / 1048576).toFixed()}MB]`, true)
-            .addField('``servers``', [client.guilds.size], true)
-            .addField('``channels``' , `[ ${client.channels.size} ]` , true)
-            .addField('``Users``' ,`[ ${client.users.size} ]` , true)
-            .addField('``My Name``' , `[ ${client.user.tag} ]` , true)
-            .addField('``My ID``' , `[ ${client.user.id} ]` , true)
-			      .addField('``My Prefix``' , `[ r#]` , true)
-			      .addField('``My Language``' , `[ Java Script ]` , true)
-			      .setFooter('By | Uzy')
-    })
-}
-});
-
 client.login(process.env.BOT_TOKEN)
