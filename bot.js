@@ -34,8 +34,8 @@ client.on('ready', () => {
   console.log('╔[════════════]╗')
   console.log('Created By: Uzy.')
   console.log('╚[════════════]╝')
-client.user.setActivity("r#help | Uzy.",{type: 'STREAM'});
-console.log('Done The Streaming Setup Completed')
+client.user.setActivity("r#help | Uzy.",{type: 'WATCHING'});
+console.log('Done The WATCHING Setup Completed')
 	
 });	
 
