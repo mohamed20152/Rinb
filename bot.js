@@ -65,7 +65,7 @@ client.on('ready', () => {//new ready event
                       role.edit({color : "RANDOM"});
                   };
       });
-  }, 3000);//the rainbow time
+  }, 1000);//the rainbow time
 })
 
 client.on("message", message => {//new msg event
